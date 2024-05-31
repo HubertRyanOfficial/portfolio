@@ -14,7 +14,8 @@ const HeaderInfo = memo(() => {
         }}
         className="mt-4 text-2xl text-gray-400 sm:text-3xl"
       >
-        Hi, I'm fullstack developer, UI/UX designer and musician from Brazil. 🇧🇷
+        Hi, I'm a fullstack developer, UI/UX designer and musician from Brazil.
+        🇧🇷
       </motion.p>
     </div>
   );

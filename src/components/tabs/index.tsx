@@ -12,7 +12,7 @@ export default function TabsInfo() {
         <TabsTrigger value="projects">Projects</TabsTrigger>
         <TabsTrigger value="skills">Skills</TabsTrigger>
         <TabsTrigger value="about">About</TabsTrigger>
-        <TabsTrigger value="work">Work Experiences</TabsTrigger>
+        <TabsTrigger value="work">Work Experience</TabsTrigger>
       </TabsList>
       <TabsContent value="projects">
         <Projects />
