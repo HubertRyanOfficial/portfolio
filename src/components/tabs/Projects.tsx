@@ -1,4 +1,5 @@
 import { ExternalLinkIcon } from "lucide-react";
+import { Separator } from "../ui/separator";
 
 const LINKS_TYPES = {
   x: "X (Twitter)",
@@ -118,14 +119,17 @@ export function ProjectItem({
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-y-6 pb-8">
+    <div className="flex flex-col pb-8">
       {PROJECTS.map((item, index) => (
-        <ProjectItem
-          key={index}
-          title={item.title}
-          description={item.description}
-          links={item.links}
-        />
+        <>
+          <ProjectItem
+            key={index}
+            title={item.title}
+            description={item.description}
+            links={item.links}
+          />
+          {index < PROJECTS.length - 1 && <Separator className="my-6" />}
+        </>
       ))}
     </div>
   );

@@ -1,3 +1,4 @@
+import { Separator } from "../ui/separator";
 import { ProjectItem } from "./Projects";
 
 const EXPERIENCES = [
@@ -65,14 +66,17 @@ const EXPERIENCES = [
 
 export default function WorkExperiencies() {
   return (
-    <div className="flex flex-col gap-y-6 pb-8">
+    <div className="flex flex-col pb-8">
       {EXPERIENCES.map((item, index) => (
-        <ProjectItem
-          key={index}
-          date={item.date}
-          title={item.title}
-          description={item.description}
-        />
+        <>
+          <ProjectItem
+            key={index}
+            date={item.date}
+            title={item.title}
+            description={item.description}
+          />
+          {index < EXPERIENCES.length - 1 && <Separator className="my-6" />}
+        </>
       ))}
     </div>
   );
