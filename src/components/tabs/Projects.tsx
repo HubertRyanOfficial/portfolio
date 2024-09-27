@@ -55,7 +55,7 @@ const PROJECTS: {
         link: "https://x.com/cloudskyapp",
       },
     ],
-    icon: SixcryLogo,
+    icon: CloudskyLogo,
   },
   {
     title: "Sixcry",
@@ -71,7 +71,7 @@ const PROJECTS: {
         link: "https://x.com/six6cry",
       },
     ],
-    icon: CloudskyLogo,
+    icon: SixcryLogo,
   },
 ];
 
@@ -108,7 +108,7 @@ export function ProjectItem({
     type: keyof typeof LINKS_TYPES;
     link: string;
   }[];
-  icon: any;
+  icon?: any;
 }) {
   return (
     <div>
