@@ -8,37 +8,25 @@ const EXPERIENCES = [
     description: (
       <>
         Responsible for developing web applications using React JS & Next JS,
-        focusing on creating efficient and scalable user interfaces.
-        <br />
-        <br />
-        Performed maintenance and bug fixes on existing applications to ensure
-        stability and enhance performance.
+        focusing on creating efficient and scalable user interfaces.Performed
+        maintenance and bug fixes on existing applications to ensure stability
+        and enhance performance.
         <br />
         <br />
         Developed new features to meet project requirements and improve user
-        experience.
-        <br />
-        <br />
-        Participated in alignment meetings with the development team to
-        coordinate efforts and ensure project goals are met.
-        <br />
+        experience. Participated in alignment meetings with the development team
+        to coordinate efforts and ensure project goals are met.
         <br />
         <br />
         Conducted code reviews to enforce best development practices and
-        maintain high code quality.
-        <br />
-        <br />
-        Contributed innovative ideas and solutions to enhance project outcomes.
+        maintain high code quality. Contributed innovative ideas and solutions
+        to enhance project outcomes.
         <br />
         <br />
         Created technical documentation for developed projects to ensure clarity
-        and facilitate future maintenance.
-        <br />
-        <br />
-        Stayed updated with the latest market trends and technologies to
-        continuously improve development processes.
-        <br />
-        Engaged in other related activities as required by the role.
+        and facilitate future maintenance.Stayed updated with the latest market
+        trends and technologies to continuously improve development
+        processes.Engaged in other related activities as required by the role.
       </>
     ),
   },
