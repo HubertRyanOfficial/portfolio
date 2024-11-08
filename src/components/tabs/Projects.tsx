@@ -1,79 +1,12 @@
 import { ExternalLinkIcon } from "lucide-react";
 import { motion } from "framer-motion";
+
+import {
+  LINKS_TYPES,
+  OPEN_SOURCE_PROJECTS,
+  PROJECTS,
+} from "@/constants/projects";
 import { Separator } from "../ui/separator";
-
-import TapedinLogo from "@/assets/brands/tapedin.png";
-import SixcryLogo from "@/assets/brands/sixcry.svg";
-import CloudskyLogo from "@/assets/brands/cloudsky.svg";
-
-const LINKS_TYPES = {
-  x: "X (Twitter)",
-  website: "Visit website",
-  instagram: "Instagram",
-};
-
-const PROJECTS: {
-  title: string;
-  description: string;
-  links: {
-    type: keyof typeof LINKS_TYPES;
-    link: string;
-  }[];
-  icon: any;
-}[] = [
-  {
-    title: "Tapedin",
-    description:
-      "A social media app released in 2019 focused on sharing moments, receiving real reactions from people.",
-    links: [
-      {
-        type: "website",
-        link: "https://tapedin.com.br",
-      },
-      {
-        type: "x",
-        link: "https://x.com/tapedin",
-      },
-      {
-        type: "instagram",
-        link: "https://instagram.com/tapedin",
-      },
-    ],
-    icon: TapedinLogo,
-  },
-  {
-    title: "Cloudsky",
-    description:
-      "Cloudsky is a password manager with end-to-end encryption built in 2023 and released in 2024.",
-    links: [
-      {
-        type: "website",
-        link: "https://cloudsky.app/en",
-      },
-      {
-        type: "x",
-        link: "https://x.com/cloudskyapp",
-      },
-    ],
-    icon: CloudskyLogo,
-  },
-  {
-    title: "Sixcry",
-    description:
-      "Sixcry is an encryption service based on a unique hexadecimal code, its first model being called Sixcry One (Cloudsky is the first internet service using Sixcry) and it was developed in 2023.",
-    links: [
-      {
-        type: "website",
-        link: "https://sixcry.com",
-      },
-      {
-        type: "x",
-        link: "https://x.com/six6cry",
-      },
-    ],
-    icon: SixcryLogo,
-  },
-];
 
 function LinkItem({
   type,
@@ -120,11 +53,11 @@ export function ProjectItem({
               scale: 1.1,
             }}
             src={icon}
-            className="w-[80px] h-[80px] cursor-default  "
+            className="w-[80px] h-[80px] cursor-default object-contain"
           />
         )}
         <div className="ml-4">
-          <h2 className="text-lg text-black font-medium">{title}</h2>
+          <span className="text-lg text-black font-medium">{title}</span>
           <p className="text-base text-black font-normal mt-2 max-w-[500px]">
             {description}
           </p>
@@ -149,6 +82,21 @@ export default function Projects() {
   return (
     <div className="flex flex-col pb-8">
       {PROJECTS.map((item, index) => (
+        <>
+          <ProjectItem
+            key={index}
+            title={item.title}
+            description={item.description}
+            links={item.links}
+            icon={item.icon}
+          />
+          {index < PROJECTS.length - 1 && <Separator className="my-6" />}
+        </>
+      ))}
+      <h2 className="text-xl text-black font-medium my-8">
+        Open Source Projects
+      </h2>
+      {OPEN_SOURCE_PROJECTS.map((item, index) => (
         <>
           <ProjectItem
             key={index}
