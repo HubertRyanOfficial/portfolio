@@ -38,10 +38,6 @@ function App() {
                   title="X @hubertryanoff"
                   link="https://x.com/hubertryanoff"
                 />
-                <ExternalLink
-                  title="Instagram"
-                  link="https://instagram.com/hubertryanofficial"
-                />
               </div>
             </div>
             <HeaderInfo />

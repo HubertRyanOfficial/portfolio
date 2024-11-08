@@ -3,8 +3,48 @@ import { ProjectItem } from "./Projects";
 
 const EXPERIENCES = [
   {
+    date: "June/2024 - Oct/2024",
+    title: "UEX Technology - Front-end developer (Brazil)",
+    description: (
+      <>
+        Responsible for developing web applications using React JS & Next JS,
+        focusing on creating efficient and scalable user interfaces.
+        <br />
+        <br />
+        Performed maintenance and bug fixes on existing applications to ensure
+        stability and enhance performance.
+        <br />
+        <br />
+        Developed new features to meet project requirements and improve user
+        experience.
+        <br />
+        <br />
+        Participated in alignment meetings with the development team to
+        coordinate efforts and ensure project goals are met.
+        <br />
+        <br />
+        <br />
+        Conducted code reviews to enforce best development practices and
+        maintain high code quality.
+        <br />
+        <br />
+        Contributed innovative ideas and solutions to enhance project outcomes.
+        <br />
+        <br />
+        Created technical documentation for developed projects to ensure clarity
+        and facilitate future maintenance.
+        <br />
+        <br />
+        Stayed updated with the latest market trends and technologies to
+        continuously improve development processes.
+        <br />
+        Engaged in other related activities as required by the role.
+      </>
+    ),
+  },
+  {
     date: "June/2023 - Jan/2024",
-    title: "Sidea Tecnologia - Software Engineer",
+    title: "Sidea Technology - Software Engineer (Brazil)",
     description: (
       <>
         Responsible for developing mobile application using React Native, Java
@@ -24,7 +64,7 @@ const EXPERIENCES = [
   },
   {
     date: "September/2021 - January/2023",
-    title: "DevMaker - Mobile IOS e Android Engineer",
+    title: "DevMaker - Mobile IOS e Android Engineer (Brazil)",
     description: (
       <>
         Devmaker is a software house that builds customized systems for all
@@ -42,14 +82,14 @@ const EXPERIENCES = [
   },
   {
     date: "March/2021 - August/2021",
-    title: "CRP Technology - Mobile Engineer",
+    title: "CRP Technology - Mobile Engineer (Brazil)",
     description:
       "In charge of building mobile apps for internal company purposes, using Flutter. Building new features and providing maintenance using Dart.",
   },
   {
     date: "January/2018 - January/2020",
     title:
-      "Federal Institute of Education, Science and Technology of Sergipe - Software Programming monitor",
+      "Federal Institute of Education, Science and Technology of Sergipe - Software Programming monitor (Brazil)",
     description: (
       <>
         While I was studying computer assembly, I was invited to teach
