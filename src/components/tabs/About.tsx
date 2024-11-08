@@ -8,10 +8,9 @@ export default function About() {
       <br />
       <p className="text-base text-justify">
         I'm 22 years old and a highly experienced <b>Front End</b>,{" "}
-        <b>Mobile</b> and <b>Back-end</b> developer with over{" "}
-        <u>6 years of professional experience</u> in the field. My main
-        expertise revolves around <b>JavaScript</b>, web development and mobile
-        applications.
+        <b>Mobile</b> and <b>Back-end</b> developer with{" "}
+        <u>8 years of experience</u> in the field. My main expertise revolves
+        around <b>JavaScript</b>, web development and mobile applications.
       </p>
       <br />
       <p>
