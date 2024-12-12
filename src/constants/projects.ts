@@ -5,6 +5,7 @@ import CloudskyLogo from "@/assets/brands/cloudsky.svg";
 import OpxLogo from "@/assets/brands/opx.png";
 import BetweenPages from "@/assets/brands/between-pages.png";
 import RNPersisted from "@/assets/brands/react-native-persisted.jpeg";
+import RNFirebaseTools from "@/assets/brands/rnfirebasetools.png";
 import Gemini from "@/assets/brands/gemini.jpeg";
 
 type Project = {
@@ -89,6 +90,18 @@ export const OPEN_SOURCE_PROJECTS: Project[] = [
       {
         type: "github",
         link: "https://github.com/opxbrowser",
+      },
+    ],
+  },
+  {
+    title: "React Native Firebase Tools - RNFirebase library (React Native)",
+    description:
+      "A library with many tools to help you using firebase on React Native Firebase",
+    icon: RNFirebaseTools,
+    links: [
+      {
+        type: "github",
+        link: "https://github.com/HubertRyanOfficial/react-native-firebase-tools/",
       },
     ],
   },

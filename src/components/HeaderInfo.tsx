@@ -17,10 +17,9 @@ const HeaderInfo = memo(() => {
         transition={{
           duration: 0.4,
         }}
-        className="mt-4 text-2xl text-black sm:text-3xl"
+        className="mt-4 text-2xl text-black sm:text-3xl lg:text-4xl"
       >
-        Hi, I'm a fullstack developer, UI/UX designer and musician from Brazil.
-        🇧🇷
+        Hi, I'm Software Engineer, UI/UX designer and musician.
       </motion.p>
       <div className="mt-2 flex flex-row justify-end gap-x-2">
         <Button
