@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Riko - Bring interactivity to your code illustrations",
     description:
-      "A new interactive way to share your code whenever you want to everyone. Riko was created to help developers, teachers and technology enthusiasts to show how code is awesome and easy to learn.",
+      "A new interactive way to share your code whenever you want to everyone released on end of the 2024. Riko was created to help developers, teachers and technology enthusiasts to show how code is awesome and easy to learn.",
     links: [
       {
         type: "website",
