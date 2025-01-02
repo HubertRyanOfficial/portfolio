@@ -1,3 +1,4 @@
+import RikoLogo from "@/assets/brands/riko.png";
 import TapedinLogo from "@/assets/brands/tapedin.png";
 import SixcryLogo from "@/assets/brands/sixcry.svg";
 import CloudskyLogo from "@/assets/brands/cloudsky.svg";
@@ -26,6 +27,22 @@ export const LINKS_TYPES = {
 };
 
 export const PROJECTS: Project[] = [
+  {
+    title: "Riko - Bring interactivity to your code illustrations",
+    description:
+      "A new interactive way to share your code whenever you want to everyone. Riko was created to help developers, teachers and technology enthusiasts to show how code is awesome and easy to learn.",
+    links: [
+      {
+        type: "website",
+        link: "https://rikocode.vercel.app",
+      },
+      {
+        type: "x",
+        link: "https://x.com/rikocode",
+      },
+    ],
+    icon: RikoLogo,
+  },
   {
     title: "Tapedin - Social media app",
     description:
