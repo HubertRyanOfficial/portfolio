@@ -44,33 +44,13 @@ export const PROJECTS: Project[] = [
     icon: RikoLogo,
   },
   {
-    title: "Tapedin - Social media app",
-    description:
-      "A social media app released in 2019 focused on sharing moments, receiving real reactions from people.",
-    links: [
-      {
-        type: "website",
-        link: "https://tapedin.com.br",
-      },
-      {
-        type: "x",
-        link: "https://x.com/tapedin",
-      },
-      {
-        type: "instagram",
-        link: "https://instagram.com/tapedin",
-      },
-    ],
-    icon: TapedinLogo,
-  },
-  {
     title: "Cloudsky - Password manager",
     description:
       "Cloudsky is a password manager with end-to-end encryption built in 2023 and released in 2024.",
     links: [
       {
         type: "website",
-        link: "https://cloudsky.app/en",
+        link: "https://cloudskyapp.com",
       },
       {
         type: "x",
@@ -94,6 +74,26 @@ export const PROJECTS: Project[] = [
       },
     ],
     icon: SixcryLogo,
+  },
+  {
+    title: "Tapedin - Social media app",
+    description:
+      "A social media app released in 2019 focused on sharing moments, receiving real reactions from people.",
+    links: [
+      {
+        type: "website",
+        link: "https://tapedin.com.br",
+      },
+      {
+        type: "x",
+        link: "https://x.com/tapedin",
+      },
+      {
+        type: "instagram",
+        link: "https://instagram.com/tapedin",
+      },
+    ],
+    icon: TapedinLogo,
   },
 ];
 
