@@ -82,7 +82,7 @@ export const PROJECTS: Project[] = [
     links: [
       {
         type: "website",
-        link: "https://tapedin.com.br",
+        link: "https://tapedin.net",
       },
       {
         type: "x",

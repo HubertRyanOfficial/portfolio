@@ -3,6 +3,27 @@ import { ProjectItem } from "./Projects";
 
 const EXPERIENCES = [
   {
+    date: "Fev/2025 - Sept/2025",
+    title: "Shredder - Tech Lead",
+    description: (
+      <>
+        As a Tech Lead, I'm responsible for guiding and mentoring a
+        cross-functional development team, driving the technical direction of
+        our projects, and ensuring high-quality delivery.
+        <br />
+        <br />
+        I lead initiatives across mobile and web platforms using modern
+        technologies including React Native with Expo, Firebase, Google Cloud
+        Platform, and Next.js.
+        <br />
+        <br />
+        My role involves architectural decisions, code reviews, hands-on
+        development, and fostering a collaborative engineering culture focused
+        on performance, scalability, and user experience.
+      </>
+    ),
+  },
+  {
     date: "June/2024 - Oct/2024",
     title: "UEX Technology - Front-end developer (Brazil)",
     description: (
