@@ -28,22 +28,6 @@ export const LINKS_TYPES = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Riko - Bring interactivity to your code illustrations",
-    description:
-      "A new interactive way to share your code whenever you want to everyone released on end of the 2024. Riko was created to help developers, teachers and technology enthusiasts to show how code is awesome and easy to learn.",
-    links: [
-      {
-        type: "website",
-        link: "https://rikocode.vercel.app",
-      },
-      {
-        type: "x",
-        link: "https://x.com/rikocode",
-      },
-    ],
-    icon: RikoLogo,
-  },
-  {
     title: "Cloudsky - Password manager",
     description:
       "Cloudsky is a password manager with end-to-end encryption built in 2023 and released in 2024.",
@@ -94,6 +78,22 @@ export const PROJECTS: Project[] = [
       },
     ],
     icon: TapedinLogo,
+  },
+  {
+    title: "Riko - Bring interactivity to your code illustrations",
+    description:
+      "A new interactive way to share your code whenever you want to everyone released on end of the 2024. Riko was created to help developers, teachers and technology enthusiasts to show how code is awesome and easy to learn.",
+    links: [
+      {
+        type: "website",
+        link: "https://rikocode.vercel.app",
+      },
+      {
+        type: "x",
+        link: "https://x.com/rikocode",
+      },
+    ],
+    icon: RikoLogo,
   },
 ];
 

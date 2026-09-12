@@ -35,6 +35,10 @@ function App() {
                   link="https://github.com/hubertryanofficial"
                 />
                 <ExternalLink
+                  title="Linkedin"
+                  link="https://linkedin.com/in/hubertryanoff"
+                />
+                <ExternalLink
                   title="X @hubertryanoff"
                   link="https://x.com/hubertryanoff"
                 />
