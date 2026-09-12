@@ -8,7 +8,7 @@ import WorkExperiencies from "./WorkExperiencies";
 export default function TabsInfo() {
   return (
     <Tabs defaultValue="projects" className="w-full">
-      <TabsList className="mb-8 flex-wrap sm:flex-nowrap sm:mb-6">
+      <TabsList className="flex-wrap sm:flex-nowrap mb-12 sm:mb-8">
         <TabsTrigger value="projects">Projects</TabsTrigger>
         <TabsTrigger value="skills">Skills</TabsTrigger>
         <TabsTrigger value="about">About</TabsTrigger>

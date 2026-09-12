@@ -7,6 +7,7 @@ import {
   PROJECTS,
 } from "@/constants/projects";
 import { Separator } from "../ui/separator";
+import { cn } from "@/lib/utils";
 
 function LinkItem({
   type,
@@ -33,6 +34,7 @@ export function ProjectItem({
   description,
   links,
   icon,
+  customDescriptionClassName,
 }: {
   title: string;
   description: string | React.ReactNode | React.ReactNode[];
@@ -42,11 +44,12 @@ export function ProjectItem({
     link: string;
   }[];
   icon?: any;
+  customDescriptionClassName?: string;
 }) {
   return (
     <div>
       {date && <p className="text-sm mb-2 italic text-gray-600">{date}</p>}
-      <div className="flex flex-row items-start p-3 rounded-xl hover:bg-gray-50 transition-all">
+      <div className="flex flex-row items-start  transition-all">
         {icon && (
           <motion.img
             whileHover={{
@@ -56,9 +59,9 @@ export function ProjectItem({
             className="w-[80px] h-[80px] cursor-default object-contain"
           />
         )}
-        <div className="ml-4">
+        <div className={cn("w-full ml-4", customDescriptionClassName)}>
           <span className="text-lg text-black font-medium">{title}</span>
-          <p className="text-base text-black font-normal mt-2 max-w-[500px]">
+          <p className="text-base text-black font-normal mt-2 ">
             {description}
           </p>
           {links && (

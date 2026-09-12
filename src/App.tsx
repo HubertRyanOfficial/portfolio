@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="w-full min-h-[100vh] flex justify-center bg-white overflow-y-auto">
-        <main className="max-w-[800px] h-[750px] mt-16 px-8">
+        <main className="max-w-[800px] h-auto p-16 bg-[#FCFAF9] border-x border-slate-200">
           <header>
             <div className="flex flex-row items-end justify-between">
               <motion.img
@@ -26,7 +26,7 @@ function App() {
                 transition={{
                   duration: 0.4,
                 }}
-                className="w-32 h-w-32 rounded-2xl sm:w-40 sm:h-40"
+                className="w-32 h-w-32 rounded-full sm:w-40 sm:h-40"
                 src="https://avatars.githubusercontent.com/u/51359763?v=4"
               />
               <div className="flex flex-col items-end gap-y-2 sm:flex-row sm:gap-x-4">

@@ -123,6 +123,7 @@ export default function WorkExperiencies() {
             date={item.date}
             title={item.title}
             description={item.description}
+            customDescriptionClassName="ml-0"
           />
           {index < EXPERIENCES.length - 1 && <Separator className="my-6" />}
         </>
