@@ -19,7 +19,7 @@ function LinkItem({
   return (
     <a
       href={link}
-      className="bg-gray-50 text-black font-medium text-xs px-4 py-1 rounded-xl hover:bg-gray-200 flex flex-row items-center transition-all"
+      className="bg-black/5 text-black font-medium text-xs px-4 py-1 rounded-xl hover:bg-black/10 flex flex-row items-center transition-all"
       target="_blank"
     >
       {LINKS_TYPES[type]}
